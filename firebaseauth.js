@@ -130,7 +130,7 @@ document.getElementById('loginsubmit').addEventListener('click', async (event) =
         // Show success message and redirect
         showMessage('Login is successful', 'signInMessage');
         window.history.replaceState(null, null, 'dashboard.html'); // Update URL without reloading
-        window.location.href = '/dashboard.html'; // Redirect to dashboard
+        window.location.href = 'dashboard.html'; // Redirect to dashboard
 
     } catch (error) {
         // Handle login error
